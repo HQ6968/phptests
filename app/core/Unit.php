@@ -124,11 +124,11 @@ class Unit
 
         $filename = $file->getFilename() ;
 
-        if (strlen($filename) < 8) {
+        if (strlen($filename) < 9) {
             return false ;
         }
 
-        return substr($filename , -8, -4) == 'Test' ;
+        return substr($filename , -9, -4) == '.test' ;
     }
 
     /**
