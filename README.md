@@ -9,4 +9,4 @@ php test like go test style
 
 # examples 
 
-examples 为对应框架需要引入的文件
+examples 为对应框架需要引入的文件 , 该文件只在测试下执行 ， 不会实际加载到项目中。
